@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+	<head>
+		<title>경제학과 퀴즈 사이트</title>
+		<meta charset="utf-8">
+		<style>
+			a {text-decoration: none; color: black;}
+			body {
+				justify-content: center;
+				align-items: center;
+				height: 100vh; /* 화면의 전체 높이를 차지하도록 설정 */
+				background: url('./한신로고.png') center center no-repeat; /* 배경 이미지 설정 */
+				background-size: 500px 250px; /* 이미지를 화면에 맞게 조절 */
+			}
+		</style>
+		<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body>
+		<h2 id="schoolname">한신대학교</h2>
+		<header>
+			<h1><a href="./main.html" target="_self" style="color: black; text-decoration: none;">경제학과 퀴즈</a></h1>
+		</header>
+		
+        <div id="menu">
+            <a href="./start.html">시작하기</a><br>
+            <a href="./rank.html">순위표</a><br>
+            <a href="./bug_main.html">버그 제보</a><br>
+			<a href="./lab.html">실험실</a><br>
+        </div>
+
+		<div id="welcome">
+			made by yourjin
+			<a href="https://www.instagram.com/your_j1n/?hl=ko" target="_blank"><img src="./instagram-logo.png" width="20"></a>
+		</div>
+
+
+	</body>
+</html>
